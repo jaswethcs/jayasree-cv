@@ -212,6 +212,17 @@ html {
   transition: color 0.2s ease;
 }
 
+.contact-item[href^="tel"] {
+  align-items: flex-start;
+}
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
 .contact-item:hover {
   color: var(--primary);
 }
